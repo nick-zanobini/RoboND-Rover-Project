@@ -97,7 +97,7 @@ accurate.
 
 ##### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
 
-#####Accomplishments:
+##### Accomplishments:
  1) Rover was able to successfully navigate around the world and pick up the rocks  
     1) Converting the image to HSV let me isolate the rock easier without false positives like I was getting using 
   the default BGR color-space.  
@@ -113,7 +113,7 @@ accurate.
  
  ![alt text][image7]
 
-#####Improvements: 
+##### Improvements: 
 1) Making the rover hug the walls and follow a set distance off the walls would help increase net mapping as
 well as fidelity. I also think it would help prevent rock overshooting. 
 2) I think a better approach to getting unstuck should be taken but the simple system I implemented was good
@@ -124,7 +124,7 @@ it is easy to get stuck doing circles.
 to pick it up. A better approach could be to align the rover so the rock is within +/- 5 degrees from it so it
 approaches the rock head on and never has this not close enough problem.
 
-#####Comments:
+##### Comments:
 * When trying to produce a run worthy of submitting I started noticing significant lag in the simulator to the
 extent that the reported FPS went from ~40 down to ~20 but in reality the simulator was updating under 1 FPS. 
 
